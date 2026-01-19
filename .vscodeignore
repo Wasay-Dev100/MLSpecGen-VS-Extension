@@ -1,0 +1,77 @@
+# Development files
+.vscode/**
+.vscode-test/**
+.git/**
+.gitignore
+.gitattributes
+
+# Environment files
+.env
+.env.local
+env.example
+
+# Build artifacts (keep out/ folder for bundled extension)
+*.vsix
+*.log
+logs/**
+
+# Test files
+test_*.py
+test.py
+test_wrapper*.py
+*_test.js
+gpt_ragtest.js
+claude_ragtest.js
+
+# Output directories
+ml-contract-outputs/**
+venv/**
+.venv/**
+ml_contract_persistent_venv_v2/**
+
+# Documentation (keep README.md)
+EXTENSION_*.md
+Extension_*.md
+FEEDBACK_*.md
+FIXES_*.md
+FUTURE_*.md
+GITHUB_*.md
+MULTI_*.md
+REPOSITORY_*.md
+ROADMAP.md
+SHORT_*.md
+VENV_*.md
+VERSIONING_*.md
+ESSENTIAL_*.md
+GIT_*.md
+PUBLISHING_GUIDE.md
+
+# Data files (keep only kerasembedded_examples.json in root or resources/)
+*.csv
+Tensorembedded_examples.json
+actionable_examples.txt
+pycontracts_*.txt
+rcontext.txt
+Research_Context.txt
+
+# Separate projects
+SRS-Code-Generator/**
+
+# Scripts
+cleanup-*.ps1
+add-*.ps1
+
+# Personal files
+resume_*.tex
+*.key
+*.pem
+
+# IDE
+.idea/**
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+
