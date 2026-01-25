@@ -1,6 +1,6 @@
 # ML Contract Violation Detector - MLSpecGen
 
-A VS Code extension that detects ML API contract violations and generates executable PyContracts using RAG (Retrieval-Augmented Generation) and GPT-4o.
+A VS Code extension that detects ML API contract violations and generates executable PyContracts using RAG (Retrieval-Augmented Generation) and AI models.
 
  ![Alt text](images/vscombined.png)
 
